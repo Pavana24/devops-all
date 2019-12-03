@@ -1,15 +1,15 @@
 variable "key_name" {
-  default = "jen-terra"
+  default = "DEMO1"
 }
 
 variable "pvt_key" {
-  default = "/home/jen-terra.pem"
+  default = "/var/lib/jenkins/DEMO1.pem"
 }
 
 variable "us-east-zones" {
-  default = ["us-east-1a"]
+  default = ["us-east-1a", "us-east-1b"]
 }
 
 variable "sg-id" {
-  default = "sg-0ad33ce61dc97380c"
+  default = "sg-090d86464ba1ceac5"
 }
